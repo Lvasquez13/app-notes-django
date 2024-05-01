@@ -14,6 +14,5 @@ Se implementa una protección de rutas para asegurar que ciertas páginas o func
 ## Diseño con Bootstrap
 La aplicación utiliza Bootstrap para el diseño y estilo de la interfaz de usuario, proporcionando una apariencia moderna y responsive.
 
-## Organización en formato Markdown
-El contenido de las notas se organiza y muestra en formato Markdown, permitiendo una visualización clara y estructurada de los textos y elementos multimedia en las notas.
+
 
