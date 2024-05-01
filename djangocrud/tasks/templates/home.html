@@ -1,0 +1,19 @@
+{% extends 'base.html' %} {% block content %} {% if user.is_authenticated %}
+<h1>Create Task</h1>
+<form action="/create_task/" method="POST">
+  {% csrf_token %} {{ form }}
+
+  <button>Save</button>
+</form>
+{% else %}
+<p>Debes iniciar sesión para crear una tarea.</p>
+{% endif %}
+
+<h2>Lista de Tareas</h2>
+<ul>
+  {% for tarea in tasks %}
+  <li>{{ tarea }}</li>
+  {% endfor %}
+</ul>
+
+{% endblock %}
